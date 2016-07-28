@@ -1,1 +1,30 @@
-baseurl: /jekyll_demo
+# Dependencies
+markdown:            kramdown
+highlighter:         rouge
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               "lsqboy`s"
+tagline:             "龙腾虎跃"
+description:         "大浪淘金"
+url:                 /
+baseurl:             /
+gems: [jekyll-paginate]
+paginate:            10
+
+# About/contact
+author:
+  name:              lsqboy
+  github:            lsqboy
+  disqus:            lsqboy
+  duoshuo:           lsqboy-jekyll
+  weibo:             longthuy
+
+
+# redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough"]
