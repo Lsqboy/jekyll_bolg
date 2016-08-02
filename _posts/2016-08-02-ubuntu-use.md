@@ -7,7 +7,7 @@ tags: [Ubuntu]
 > 基于ubuntu 16.04 使用体验， 希望对大家有所帮助
 
 
-#### 系统网络代理
+### 系统网络代理
 
 1. 可以注册个谢公屐，购买翻墙服务，一年200RMB
 2. ubuntu系统设置 --> 网络 --> 网络代理 --> 配置URL（C）
@@ -15,7 +15,7 @@ tags: [Ubuntu]
 4. 完成 ..
 
 
-#### Chrome安装
+### Chrome安装
 
 1. 添加Key :  
    `wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - `
@@ -27,7 +27,7 @@ tags: [Ubuntu]
 4. 完成..
 
 
-#### 字体库的安装
+### 字体库的安装
 
 1. [MSYH字体下载](http://zh.osdn.jp/projects/sfnet_allfonts/downloads/msyh.ttf/)  
    或者 可以在 win10系统盘 --> Windows --> Fonts  下面拿 .ttf格式的字体
@@ -36,7 +36,7 @@ tags: [Ubuntu]
 4. 完成 ..
 
 
-#### JDK的安装
+### JDK的安装
 1. 添加、更新源：
     - sudo add-apt-repository ppa:webupd8team/java
     - sudo apt-get update
@@ -44,7 +44,7 @@ tags: [Ubuntu]
 3. 终端运行 `java -version` 有看到版本信息则为安装成功。
 
 
-#### Android Studio的安装
+### Android Studio的安装
 
 1. [Android Studio 下载](https://developer.android.com/studio/index.html#linux-bundle)
 2. 解压...解压路径最好不要有中文。终端下解压命令：`tar xfz ***.tar.gz`
@@ -53,7 +53,7 @@ tags: [Ubuntu]
 3. 完成 .. 
 
 
-#### 安装主题管理工具
+### 安装主题管理工具
 
 1. 添加源: sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily
 2. 更新源: sudo apt-get update
@@ -61,7 +61,7 @@ tags: [Ubuntu]
 4. 完成.. 主题 --> 图标 --> Numix-circle 
 
 
-#### 安装国际版QQ
+### 安装国际版QQ
 
 1. [下载QQ安装包](http://yun.baidu.com/share/link?shareid=2983202140&uk=202032639)
 2. 解压。得到wine-qqintl文件，里面有  
@@ -76,7 +76,7 @@ tags: [Ubuntu]
     > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
 
 
-#### 安装WPS
+### 安装WPS
 
 1. [下载WPS](http://www.ubuntukylin.com/application/show.php?lang=cn&id=278)
 2. sudo dpkg -i wps-office_10.1.0.5630-a20p1_amd64.deb  
@@ -85,7 +85,7 @@ tags: [Ubuntu]
    > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
 
 
-#### 安装搜狗输入法
+### 安装搜狗输入法
 
 1. [下载搜狗输入法](http://pinyin.sogou.com/linux/download.php?f=linux&bit=64)
 2. sudo dpkg -i sogoupinyin_2.0.0.0078_amd64.deb  
