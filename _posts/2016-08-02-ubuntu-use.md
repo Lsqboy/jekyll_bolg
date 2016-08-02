@@ -6,12 +6,14 @@ tags: [Ubuntu]
 
 > 基于ubuntu 16.04 使用体验， 希望对大家有所帮助
 
+
 #### 系统网络代理
 
 1. 可以注册个谢公屐，购买翻墙服务，一年200RMB
 2. ubuntu系统设置 --> 网络 --> 网络代理 --> 配置URL（C）
 3. 填入谢公屐的`PAC路径地址` 应用到整个系统.
 4. 完成 ..
+
 
 #### Chrome安装
 
@@ -24,13 +26,15 @@ tags: [Ubuntu]
    `sudo apt-get install google-chrome-stable`
 4. 完成..
 
+
 #### 字体库的安装
 
 1. [MSYH字体下载](http://zh.osdn.jp/projects/sfnet_allfonts/downloads/msyh.ttf/)  
    或者 可以在 win10系统盘 --> Windows --> Fonts  下面拿 .ttf格式的字体
 2. sudo apt-get install font-manager
-3. ![fonts](/public/images/2016-08-02/lsqboy_fonts.png)
+3. ![fonts](/public/images/2016-08-02/fonts.png)
 4. 完成 ..
+
 
 #### JDK的安装
 1. 添加、更新源：
@@ -47,6 +51,7 @@ tags: [Ubuntu]
 3. 运行...运行前需要机子已经安装好JDK.  
    用终端进入解压目录下的`bin`子目录 下，然后在终端下运行启动命令：`./studio.sh`
 3. 完成 .. 
+
 
 #### 安装主题管理工具
 
@@ -70,21 +75,24 @@ tags: [Ubuntu]
         
     > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
 
+
 #### 安装WPS
 
 1. [下载WPS](http://www.ubuntukylin.com/application/show.php?lang=cn&id=278)
 2. sudo dpkg -i wps-office_10.1.0.5630-a20p1_amd64.deb  
+3. 完成..
 
    > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
-3. 完成..
+
 
 #### 安装搜狗输入法
 
 1. [下载搜狗输入法](http://pinyin.sogou.com/linux/download.php?f=linux&bit=64)
 2. sudo dpkg -i sogoupinyin_2.0.0.0078_amd64.deb  
-   - 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
 3. 重启电脑，此步很关键
 4. 打开`Fcitx设置`，添加搜狗输入法，完成..
+
+   > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
 
 
 
