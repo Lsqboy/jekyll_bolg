@@ -79,7 +79,7 @@ tags: [Ubuntu]
  
 3. 完成..
 
-####安装搜狗输入法
+#### 安装搜狗输入法
 
 1. [下载搜狗输入法](http://pinyin.sogou.com/linux/download.php?f=linux&bit=64)
 2. sudo dpkg -i sogoupinyin_2.0.0.0078_amd64.deb
