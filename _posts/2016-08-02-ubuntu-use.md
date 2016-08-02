@@ -20,7 +20,7 @@ tags: [Ubuntu]
 2. 添加源 :  
     `sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'`
 3. 更新源、安装chrome :   
-   `sudo apt-get update`
+   `sudo apt-get update`  
    `sudo apt-get install google-chrome-stable`
 4. 完成..
 
@@ -29,7 +29,7 @@ tags: [Ubuntu]
 1. [MSYH字体下载](http://zh.osdn.jp/projects/sfnet_allfonts/downloads/msyh.ttf/)  
    或者 可以在 win10系统盘 --> Windows --> Fonts  下面拿 .ttf格式的字体
 2. sudo apt-get install font-manager
-3. ![fonts](public/images/2016-08-02/lsqboy_fonts.png)
+3. ![fonts](/public/images/2016-08-02/lsqboy_fonts.png)
 4. 完成 ..
 
 #### JDK的安装
@@ -63,9 +63,10 @@ tags: [Ubuntu]
     `fonts-wqy-microhei_0.2.0-beta-2_all.deb`  
     `ttf-wqy-microhei_0.2.0-beta-2_all.deb`   
     `wine-qqintl_0.1.3-2_i386.deb`
-3.  依次安装：sudo dpkg -i wine-qqintl_0.1.3-2_i386.deb  
-            sudo dpkg -i ttf-wqy-microhei_0.2.0-beta-2_all.deb  
-            sudo dpkg -i fonts-wqy-microhei_0.2.0-beta-2_all.deb
+3.  依次安装：  
+    sudo dpkg -i wine-qqintl_0.1.3-2_i386.deb  
+    sudo dpkg -i ttf-wqy-microhei_0.2.0-beta-2_all.deb  
+    sudo dpkg -i fonts-wqy-microhei_0.2.0-beta-2_all.deb
             
   > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
 
@@ -73,16 +74,20 @@ tags: [Ubuntu]
 
 1. [下载WPS](http://www.ubuntukylin.com/application/show.php?lang=cn&id=278)
 2. sudo dpkg -i wps-office_10.1.0.5630-a20p1_amd64.deb
+
  > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
+ 
 3. 完成..
 
 ####安装搜狗输入法
 
 1. [下载搜狗输入法](http://pinyin.sogou.com/linux/download.php?f=linux&bit=64)
 2. sudo dpkg -i sogoupinyin_2.0.0.0078_amd64.deb
+
  > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
+ 
 3. 重启电脑，此步很关键
-4. 打开Fcitx设置，添加搜狗输入法，完成..
+4. 打开`Fcitx设置`，添加搜狗输入法，完成..
 
 
 
