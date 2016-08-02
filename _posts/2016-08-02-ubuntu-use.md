@@ -66,26 +66,23 @@ tags: [Ubuntu]
 3.  依次安装：  
     sudo dpkg -i wine-qqintl_0.1.3-2_i386.deb  
     sudo dpkg -i ttf-wqy-microhei_0.2.0-beta-2_all.deb  
-    sudo dpkg -i fonts-wqy-microhei_0.2.0-beta-2_all.deb
-            
-  > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
+    sudo dpkg -i fonts-wqy-microhei_0.2.0-beta-2_all.deb 
+        
+    > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
 
 #### 安装WPS
 
 1. [下载WPS](http://www.ubuntukylin.com/application/show.php?lang=cn&id=278)
-2. sudo dpkg -i wps-office_10.1.0.5630-a20p1_amd64.deb
+2. sudo dpkg -i wps-office_10.1.0.5630-a20p1_amd64.deb  
 
- > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
- 
+   > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
 3. 完成..
 
 #### 安装搜狗输入法
 
 1. [下载搜狗输入法](http://pinyin.sogou.com/linux/download.php?f=linux&bit=64)
-2. sudo dpkg -i sogoupinyin_2.0.0.0078_amd64.deb
-
- > 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
- 
+2. sudo dpkg -i sogoupinyin_2.0.0.0078_amd64.deb  
+   - 在安装中发生了错误，原因是还有lib没有配置，所以再输入sudo apt-get install -f
 3. 重启电脑，此步很关键
 4. 打开`Fcitx设置`，添加搜狗输入法，完成..
 
