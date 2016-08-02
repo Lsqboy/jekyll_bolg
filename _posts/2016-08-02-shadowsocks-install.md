@@ -41,8 +41,8 @@ tags: [ss,ShadowSocks,Ubuntu]
         }  
     
 5. 编辑默认设置  
-   - sudo vim /etc/default/shadowsocks-libev //
-   - DAEMON-ARGS=”-A --fast-open”   //修改成 实验性(-A)  快速打开tcp(--fast-open)
+   - sudo vim /etc/default/shadowsocks-libev   
+   DAEMON-ARGS=”-A --fast-open”   //修改成 实验性(-A)  快速打开tcp(--fast-open)
 
 6. 编辑服务是server还是local   
    sudo vim /etc/init.d/shadowsocks-libev  
