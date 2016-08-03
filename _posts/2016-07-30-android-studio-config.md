@@ -16,8 +16,13 @@ tags: [Android, Studio]
 
 > Settings --> Editor --> Appearance  -->Show method separators
 
+* SVG图片转变成 VectorDrawable (解决一些图片转换出错问题)  
+  [Android SVG to VectorDrawable](http://inloop.github.io/svg2android/)
 
-
+* Android 项目中的`.idea` 文件不要提交到版本库  
+  有时候项目列表未显示完全就是这个问题导致。
+  
+  
 
 关于Android Studio更多的使用教程请查看：
 [IntelliJ IDEA 使用教程](http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/introduce.html)
