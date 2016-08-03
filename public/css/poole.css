@@ -431,6 +431,6 @@ a.pagination-item:hover {
 
 .site-footer .wrapper {
   background: url(/public/images/ft.jpg) center 0 no-repeat;
-  width: 80%;
+  width: 100%;
   height: 575px;
 }
