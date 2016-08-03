@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ShadowSocks在Ubuntu下安装
+title: Ubuntu 搭建 ShadowSocks
 tags: [ss,ShadowSocks,Ubuntu]
 ---
 
-> 分享下之前同事教我装SS的过程，步骤。  
+> 分享下之前同事教我搭建SS的过程，步骤。  
   希望对大家有所帮助。
 
 
