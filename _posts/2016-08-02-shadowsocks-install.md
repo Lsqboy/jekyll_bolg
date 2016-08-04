@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ubuntu 搭建 ShadowSocks
-tags: [ss,ShadowSocks,Ubuntu]
+tags: [ss,shadowsocks,ubuntu]
 ---
 
 > 分享下之前同事教我搭建SS的过程，步骤。  

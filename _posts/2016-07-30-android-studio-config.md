@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android Studio 使用配置 
-tags: [Android, Studio]
+tags: [android, studio]
 ---
 
 * 不想让Studio自动打开项目：
