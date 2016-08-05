@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 手机刷机常用命令
-tags: [adb]
+tags: [adb,command]
 ---
 
 > 一篇自己手机刷机所用的命令， 希望对大家有所帮助
@@ -10,9 +10,9 @@ tags: [adb]
 1. 进入fastboot：  
    adb reboot-bootloader  进入fastboot  
    fastboot devices    
-   fastboot flash recovery xx.img
+   fastboot flash recovery xx.img (第三方Recovery包)
 
-2. 手机进入recovery：  
+2. 手机进入recovery： （手机开机键+音量键下）   
     adb shell  
     su  
     reboot recovery

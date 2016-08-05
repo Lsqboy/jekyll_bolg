@@ -8,15 +8,15 @@ tags: [ss,shadowsocks,ubuntu]
   希望对大家有所帮助。
 
 
-1. 添加秘钥文件  
-   wget -O- https://shadowsocks.github.io/shadowsocks-org/debian/1D27208A.gpg | sudo apt-key add -   
+1. add the GPG public key to your system:  
+   $ wget -O- http://shadowsocks.org/debian/1D27208A.gpg | sudo apt-key add -
 
 2. 添加源  
    - vim /etc/apt/sources.list.d/ss.list
-   - deb https://shadowsocks.github.io/shadowsocks-org/debian wheezy main
-   - touch ss.list     
+   - deb http://shadowsocks.org/debian wheezy main
+   - touch ss.list  
    或  
-   - echo "deb https://shadowsocks.github.io/shadowsocks-org/debian wheezy main">> /etc/apt/sources.list.d/ss.list  
+   - echo "deb http://shadowsocks.org/debian wheezy main">> /etc/apt/sources.list.d/ss.list  
 
 3. 更新源 
     - sudo apt-get update    
@@ -65,6 +65,7 @@ tags: [ss,shadowsocks,ubuntu]
 
 保存.大功告成..
 
+参考链接：[安装shadowsocks](https://shadowsocks.org/en/download/servers.html)
 
 
 
