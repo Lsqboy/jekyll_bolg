@@ -61,7 +61,7 @@ tags: [ss,shadowsocks,ubuntu]
    ss-local 10351   root    3u  IPv4 720047      0t0  TCP localhost:1888 (LISTEN)  
    ss-local 10351   root    4u  IPv4 720049      0t0  UDP localhost:1888 
 
-10. 设置中Network 里面的Proxy修改成  [https://ligboy.org/pac/ss.pac](https://ligboy.org/pac/ss.pac)
+10. 设置中Network 里面的Proxy修改成  [http://lsqboy.com/public/ss.pac](http://lsqboy.com/public/ss.pac)
 
 保存.大功告成..
 
