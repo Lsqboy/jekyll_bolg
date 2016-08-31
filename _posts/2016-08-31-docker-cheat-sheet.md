@@ -28,7 +28,6 @@ Editor's Note: This article, reprinted from [docker-cheat-sheet](https://github.
 * [Best Practices](#best-practices)
 * [Security](#security)
 * [Tips](#tips)
-* [Contributing](#contributing)
 
 ## Why
 
@@ -622,18 +621,21 @@ docker images -viz | dot -Tpng -o docker.png
 - Cleaning APT in a RUN layer
 This should be done in the same layer as other apt commands.
 Otherwise, the previous layers still persist the original information and your images will still be fat.
+
 ```
 RUN {apt commands} \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 ```
 - Flatten an image
+
 ```
 ID=$(docker run -d image-name /bin/bash)
 docker export $ID | docker import – flat-image-name
 ```
 
 - For backup
+
 ```
 ID=$(docker run -d image-name /bin/bash)
 (docker export $ID | gzip -c > image.tgz)
