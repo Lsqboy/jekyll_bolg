@@ -1185,6 +1185,7 @@ Chaining calls in this style not only helps us stick to less than 100 characters
 
 
 # 3. Gradle Style
+
 ## 3.1 Dependencies
 
 ### 3.1.1 Versioning
