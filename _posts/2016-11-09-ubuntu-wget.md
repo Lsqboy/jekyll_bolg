@@ -17,7 +17,7 @@ tags: [wget、乱码]
 * 例如，自动下载http://www.lsqboy.com/movie/下面的所有文件：  
 
 代码示例：  
-`wget -nd -r -l1 --no-parent http://www.jbxue.com/jb/`
+`wget -nd -r -l1 --no-parent http://www.lsqboy.com/movie/`
 
 >  注：
    -nd 不创建目录；-r 递归下载；  
@@ -27,7 +27,7 @@ tags: [wget、乱码]
 * 指定下载制定后缀的文件，例如只下载http://www.lsqboy.com/movie/下`.mp4`文件和`.mkv`文件：  
  
 代码示例:    
-`wget -nd -r -l1 --no-parent -A.ipk -A.gz http://www.lsqboy.com/jb/`  
+`wget -nd -r -l1 --no-parent -A.mp4 -A.mkv http://www.lsqboy.com/movie/`  
 
 
 * 下载网站目录下的除html 之外的文件和目录，且不遵守robots.txt的限制。  
