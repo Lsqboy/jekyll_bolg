@@ -29,8 +29,7 @@ tags: [ubuntu]
 21. 开启远程控制（桌面共享）vnc连接
 22. scp命令使用
 23. ssh 连接远程计算机
-24. ps -ef | grep openssh
-25. 
+24. `ps -ef | grep openssh`
 
 
 
