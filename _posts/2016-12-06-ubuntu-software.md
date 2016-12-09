@@ -30,6 +30,7 @@ tags: [ubuntu]
 22. scp命令使用
 23. ssh 连接远程计算机
 24. `ps -ef | grep openssh`
+25. `unrar x file.rar`
 
 
 
