@@ -31,3 +31,7 @@ redcarpet:
 
 # Gems
 gems: [jekyll-paginate]
+
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
